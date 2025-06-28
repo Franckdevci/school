@@ -1,0 +1,5 @@
+tn\esb\rh\SchoolApplication.class
+tn\esb\rh\control\StudentController.class
+tn\esb\rh\entity\Student.class
+tn\esb\rh\repository\StudentRepository.class
+tn\esb\rh\service\IStudentService.class
