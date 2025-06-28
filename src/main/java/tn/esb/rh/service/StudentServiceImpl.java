@@ -18,13 +18,13 @@ public class StudentServiceImpl implements IStudentService {
 
 	public Student registerStudent(Student student) {
 
-		Student s =  studentRepository.save(student);
-		return s;
+		return   studentRepository.save(student);
+
 	}
 
 	public List<Student> getStudents() {
 		return (List<Student>)studentRepository.findAll();
-		//return ls;
+
 	}
 
 	public void deleteStudent(Integer id) {
