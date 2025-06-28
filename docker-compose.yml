@@ -17,7 +17,7 @@ services:
   app-schoo-back:
     depends_on:
       - mysqldb
-    image: franckdevops2021/school:1.1.0
+    image: franckdevops2021/school:1.0.0
     #build : ./
     restart: on-failure
     ports:
